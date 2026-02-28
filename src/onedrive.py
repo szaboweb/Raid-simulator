@@ -16,18 +16,23 @@ import msal
 import requests
 
 
-DEFAULT_SCOPES = ["Files.ReadWrite.All", "offline_access", "User.Read"]
+DEFAULT_SCOPES = ["Files.ReadWrite.All", "User.Read"]
 
 
 def acquire_token_device_flow(client_id: str, tenant_id: Optional[str] = None, scopes=None) -> str:
+    import json
     scopes = scopes or DEFAULT_SCOPES
     authority = f"https://login.microsoftonline.com/{tenant_id}" if tenant_id else "https://login.microsoftonline.com/common"
+    print(f"[DEBUG] Using authority: {authority}")
+    print(f"[DEBUG] Using scopes: {scopes}")
     app = msal.PublicClientApplication(client_id=client_id, authority=authority)
     flow = app.initiate_device_flow(scopes=scopes)
+    print(f"[DEBUG] Device flow response: {json.dumps(flow, indent=2)}")
     if "user_code" not in flow:
         raise RuntimeError("Failed to start device flow: %s" % flow)
     print(flow["message"])  # instructs the user to visit URL and enter code
     result = app.acquire_token_by_device_flow(flow)
+    print(f"[DEBUG] Token acquisition result: {json.dumps(result, indent=2)}")
     if "access_token" in result:
         return result["access_token"]
     raise RuntimeError("Failed to acquire token: %s" % json.dumps(result, indent=2))
