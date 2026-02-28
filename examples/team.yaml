@@ -1,0 +1,26 @@
+- name: Warrior
+  hp: 15000
+  atk: 1200
+  defense: 500
+  speed: 110
+  crit_rate: 0.2
+  crit_damage: 1.75
+  skill_multiplier: 1.0
+
+- name: Mage
+  hp: 9000
+  atk: 2000
+  defense: 300
+  speed: 90
+  crit_rate: 0.25
+  crit_damage: 2.0
+  skill_multiplier: 1.0
+
+- name: Support
+  hp: 11000
+  atk: 800
+  defense: 400
+  speed: 95
+  crit_rate: 0.05
+  crit_damage: 1.5
+  skill_multiplier: 1.0

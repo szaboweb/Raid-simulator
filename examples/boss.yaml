@@ -1,0 +1,8 @@
+name: Clan Boss
+hp: 100000
+atk: 2500
+defense: 1000
+speed: 100
+crit_rate: 0.05
+crit_damage: 1.5
+skill_multiplier: 1.0

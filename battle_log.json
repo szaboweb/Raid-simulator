@@ -1,0 +1,883 @@
+[
+  {
+    "round": 1,
+    "boss_hp": 97918,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 892
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Support",
+        "dmg": 1785
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 15000,
+        "alive": true,
+        "damage_done": 892
+      },
+      {
+        "name": "Mage",
+        "hp": 9000,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 9215,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "boss_hp": 98218,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Support",
+        "dmg": 1785
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 15000,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 9000,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 7430,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "boss_hp": 98300,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 9000,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 7430,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 4,
+    "boss_hp": 98300,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Mage",
+        "dmg": 1923
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 7077,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 7430,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 5,
+    "boss_hp": 98300,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Mage",
+        "dmg": 1923
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 5154,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 7430,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 6,
+    "boss_hp": 97068,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 892
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Support",
+        "dmg": 1785
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 1700
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 892
+      },
+      {
+        "name": "Mage",
+        "hp": 5154,
+        "alive": true,
+        "damage_done": 1700
+      },
+      {
+        "name": "Support",
+        "hp": 5645,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 7,
+    "boss_hp": 96136,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 892
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Mage",
+        "dmg": 1923
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 1700
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 892
+      },
+      {
+        "name": "Mage",
+        "hp": 3231,
+        "alive": true,
+        "damage_done": 1700
+      },
+      {
+        "name": "Support",
+        "hp": 5645,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 8,
+    "boss_hp": 96436,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Support",
+        "dmg": 1785
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 3231,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 3860,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 9,
+    "boss_hp": 96736,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Support",
+        "dmg": 1785
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 3231,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 2075,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 10,
+    "boss_hp": 96654,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 892
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Support",
+        "dmg": 1785
+      },
+      {
+        "actor": "Support",
+        "target": "Clan Boss",
+        "dmg": 340
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 892
+      },
+      {
+        "name": "Mage",
+        "hp": 3231,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 290,
+        "alive": true,
+        "damage_done": 340
+      }
+    ]
+  },
+  {
+    "round": 11,
+    "boss_hp": 97294,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Support",
+        "dmg": 1785
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 13334,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 3231,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 12,
+    "boss_hp": 97934,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 11668,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 3231,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 13,
+    "boss_hp": 97724,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Mage",
+        "dmg": 1923
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 1700
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 11668,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 1308,
+        "alive": true,
+        "damage_done": 1700
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 14,
+    "boss_hp": 97982,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 892
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 10002,
+        "alive": true,
+        "damage_done": 892
+      },
+      {
+        "name": "Mage",
+        "hp": 1308,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 15,
+    "boss_hp": 98622,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      },
+      {
+        "actor": "Mage",
+        "target": "Clan Boss",
+        "dmg": 850
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 8336,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 1308,
+        "alive": true,
+        "damage_done": 850
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 16,
+    "boss_hp": 99490,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Mage",
+        "dmg": 1923
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 8336,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 17,
+    "boss_hp": 99490,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 6670,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 18,
+    "boss_hp": 99490,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 5004,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 19,
+    "boss_hp": 99490,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 3338,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 20,
+    "boss_hp": 99490,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 510
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 2499
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 839,
+        "alive": true,
+        "damage_done": 510
+      },
+      {
+        "name": "Mage",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  },
+  {
+    "round": 21,
+    "boss_hp": 99108,
+    "events": [
+      {
+        "actor": "Warrior",
+        "target": "Clan Boss",
+        "dmg": 892
+      },
+      {
+        "actor": "Clan Boss",
+        "target": "Warrior",
+        "dmg": 1666
+      }
+    ],
+    "team": [
+      {
+        "name": "Warrior",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 892
+      },
+      {
+        "name": "Mage",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Support",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      }
+    ]
+  }
+]

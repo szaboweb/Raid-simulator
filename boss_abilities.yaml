@@ -1,0 +1,7 @@
+on_round_start:
+  - type: heal_percent
+    value: 0.02 # heal 2% max HP at round start
+
+on_take_damage:
+  - type: damage_multiplier
+    value: 0.85 # boss takes 85% of incoming damage
