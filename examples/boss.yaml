@@ -1,8 +1,9 @@
-name: Clan Boss
+name: Clan Boss (UNM)
 hp: 100000
+infinite_hp: true
 atk: 2500
 defense: 1000
-speed: 100
+speed: 190
 crit_rate: 0.05
 crit_damage: 1.5
 skill_multiplier: 1.0

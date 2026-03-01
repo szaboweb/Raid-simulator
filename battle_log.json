@@ -1,862 +1,3671 @@
 [
   {
     "round": 1,
-    "boss_hp": 97450,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Support",
-        "dmg": 1785
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
       },
       {
-        "actor": "Mage",
-        "target": "Clan Boss",
-        "dmg": 1700
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE1"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 15000,
+        "name": "Maneater1",
+        "hp": 49000,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 9000,
+        "name": "Maneater2",
+        "hp": 4900,
         "alive": true,
-        "damage_done": 1700
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 9215,
+        "name": "Roshcard",
+        "hp": 82306,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 59000,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 2,
-    "boss_hp": 97750,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Mage",
-        "dmg": 1923
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
       },
       {
-        "actor": "Mage",
-        "target": "Clan Boss",
-        "dmg": 850
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE2"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 15000,
+        "name": "Maneater1",
+        "hp": 48343,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 7077,
+        "name": "Maneater2",
+        "hp": 4900,
         "alive": true,
-        "damage_done": 850
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 9215,
+        "name": "Roshcard",
+        "hp": 82306,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 59000,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 3,
-    "boss_hp": 98050,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Mage",
-        "dmg": 1923
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
       },
       {
-        "actor": "Mage",
-        "target": "Clan Boss",
-        "dmg": 850
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1190,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "STUN"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 15000,
+        "name": "Maneater1",
+        "hp": 48343,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 5154,
+        "name": "Maneater2",
+        "hp": 4900,
         "alive": true,
-        "damage_done": 850
+        "damage_done": 1190
       },
       {
-        "name": "Support",
-        "hp": 9215,
+        "name": "Roshcard",
+        "hp": 81612,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 59000,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 4,
-    "boss_hp": 98300,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Mage",
-        "dmg": 1923
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1530,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
       },
       {
-        "actor": "Mage",
-        "target": "Clan Boss",
-        "dmg": 850
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1190,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE1"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 15000,
+        "name": "Maneater1",
+        "hp": 48343,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 3231,
+        "name": "Maneater2",
+        "hp": 4900,
         "alive": true,
-        "damage_done": 850
+        "damage_done": 1190
       },
       {
-        "name": "Support",
-        "hp": 9215,
+        "name": "Roshcard",
+        "hp": 80918,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 1530
+      },
+      {
+        "name": "Ninja",
+        "hp": 59000,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 5,
-    "boss_hp": 97450,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Mage",
-        "dmg": 1923
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
       },
       {
-        "actor": "Mage",
-        "target": "Clan Boss",
-        "dmg": 1700
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE2"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 15000,
+        "name": "Maneater1",
+        "hp": 47686,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 1308,
+        "name": "Maneater2",
+        "hp": 4900,
         "alive": true,
-        "damage_done": 1700
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 9215,
+        "name": "Roshcard",
+        "hp": 80918,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 59000,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 6,
-    "boss_hp": 98600,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Mage",
-        "dmg": 1923
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "STUN"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 15000,
+        "name": "Maneater1",
+        "hp": 47029,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4900,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 9215,
+        "name": "Roshcard",
+        "hp": 80918,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 59000,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 7,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Support",
-        "dmg": 1785
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE1"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 15000,
+        "name": "Maneater1",
+        "hp": 47029,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4900,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 7430,
+        "name": "Roshcard",
+        "hp": 80918,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 58286,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 8,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 2499
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE2"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 12501,
+        "name": "Maneater1",
+        "hp": 47029,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4900,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 7430,
+        "name": "Roshcard",
+        "hp": 80224,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 58286,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 9,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Support",
-        "dmg": 1785
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1190,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "STUN"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 12501,
+        "name": "Maneater1",
+        "hp": 47029,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4243,
+        "alive": true,
+        "damage_done": 1190
       },
       {
-        "name": "Support",
-        "hp": 5645,
+        "name": "Roshcard",
+        "hp": 80224,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 58286,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 10,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 1666
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE1"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 10835,
+        "name": "Maneater1",
+        "hp": 47029,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4243,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 5645,
+        "name": "Roshcard",
+        "hp": 79530,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 58286,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 11,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 2499
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE2"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 8336,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4243,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 5645,
+        "name": "Roshcard",
+        "hp": 79530,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 58286,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 12,
-    "boss_hp": 98768,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 892
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Support",
-        "dmg": 1785
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1530,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "STUN"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 8336,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 892
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4243,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 3860,
+        "name": "Roshcard",
+        "hp": 79530,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 1530
+      },
+      {
+        "name": "Ninja",
+        "hp": 57572,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 13,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Support",
-        "dmg": 1785
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE1"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 8336,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4243,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 2075,
+        "name": "Roshcard",
+        "hp": 79530,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 56858,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 14,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 1666
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE2"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 6670,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 4243,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 2075,
+        "name": "Roshcard",
+        "hp": 78836,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 56858,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 15,
-    "boss_hp": 98768,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 892
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 1666
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "STUN"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 5004,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 892
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 3586,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 2075,
+        "name": "Roshcard",
+        "hp": 78836,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 56858,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 16,
-    "boss_hp": 99150,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Support",
-        "dmg": 1785
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1530,
+        "ability": "A1"
       },
       {
-        "actor": "Support",
-        "target": "Clan Boss",
-        "dmg": 340
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE1"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 5004,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 3586,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 290,
+        "name": "Roshcard",
+        "hp": 78836,
         "alive": true,
-        "damage_done": 340
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 1530
+      },
+      {
+        "name": "Ninja",
+        "hp": 56144,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 17,
-    "boss_hp": 99108,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 892
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Support",
-        "dmg": 1785
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "AOE2"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 5004,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 892
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 2929,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Roshcard",
+        "hp": 78836,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 56144,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 18,
-    "boss_hp": 99490,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 1666
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "STUN"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 3338,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 2929,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Roshcard",
+        "hp": 78836,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 55430,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 19,
-    "boss_hp": 99490,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 1666
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE1"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 1672,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 2929,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Roshcard",
+        "hp": 78836,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 54716,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 20,
-    "boss_hp": 99490,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 1666
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE2"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 6,
+        "name": "Maneater1",
+        "hp": 46372,
         "alive": true,
-        "damage_done": 510
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Maneater2",
+        "hp": 2929,
+        "alive": true,
+        "damage_done": 1428
       },
       {
-        "name": "Support",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 0
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 54716,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   },
   {
     "round": 21,
-    "boss_hp": 99490,
+    "boss_hp": 100000,
     "events": [
       {
-        "actor": "Warrior",
-        "target": "Clan Boss",
-        "dmg": 510
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
       },
       {
-        "actor": "Clan Boss",
-        "target": "Warrior",
-        "dmg": 1666
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "STUN"
       }
     ],
     "team": [
       {
-        "name": "Warrior",
-        "hp": 0,
-        "alive": false,
-        "damage_done": 510
+        "name": "Maneater1",
+        "hp": 45715,
+        "alive": true,
+        "damage_done": 1249
       },
       {
-        "name": "Mage",
+        "name": "Maneater2",
+        "hp": 2929,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 54716,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 22,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1190,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 45715,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 2929,
+        "alive": true,
+        "damage_done": 1190
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 42000,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 54002,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 23,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1190,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Seeker",
+        "dmg": 1102,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 45715,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 2929,
+        "alive": true,
+        "damage_done": 1190
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 54002,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 24,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 45715,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 2272,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 54002,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 25,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1190,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 45715,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 2272,
+        "alive": true,
+        "damage_done": 1190
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 53288,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 26,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 45058,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 2272,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 53288,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 27,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 44401,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 2272,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 53288,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 28,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 44401,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 1615,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 53288,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 29,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 44401,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 1615,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 30,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1530,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 44401,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 958,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 1530
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 31,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 43744,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 958,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 78142,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 32,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 43744,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 958,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 33,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1530,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 43744,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 40898,
+        "alive": true,
+        "damage_done": 1530
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 34,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Seeker",
+        "dmg": 735,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 43744,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 40163,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 35,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 43087,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 40163,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 36,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Seeker",
+        "dmg": 735,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 43087,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 39428,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 37,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Seeker",
+        "dmg": 735,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 43087,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 38693,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 38,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 42430,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 38693,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 39,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Seeker",
+        "dmg": 735,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 42430,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 77448,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 37958,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 40,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1190,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 42430,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1190
+      },
+      {
+        "name": "Roshcard",
+        "hp": 76754,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37958,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 52574,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 41,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1530,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 714,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 42430,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 76754,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37958,
+        "alive": true,
+        "damage_done": 1530
+      },
+      {
+        "name": "Ninja",
+        "hp": 51860,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 42,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Seeker",
+        "dmg": 735,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 42430,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 76754,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 51860,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 43,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 1071,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 42430,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 76754,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 50789,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 44,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 41773,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 301,
+        "alive": true,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 76754,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 50789,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 45,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater2",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1428,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater2",
+        "dmg": 657,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 41773,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 1428
+      },
+      {
+        "name": "Roshcard",
+        "hp": 76754,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 50789,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 46,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Maneater1",
+        "dmg": 657,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 41116,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
         "hp": 0,
         "alive": false,
         "damage_done": 0
       },
       {
-        "name": "Support",
+        "name": "Roshcard",
+        "hp": 76754,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 50789,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 47,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 41116,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
         "hp": 0,
         "alive": false,
         "damage_done": 0
+      },
+      {
+        "name": "Roshcard",
+        "hp": 76060,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 50789,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 48,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "STUN"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 41116,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Roshcard",
+        "hp": 75366,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 50789,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 49,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 908,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Roshcard",
+        "dmg": 694,
+        "ability": "AOE1"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 41116,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Roshcard",
+        "hp": 74672,
+        "alive": true,
+        "damage_done": 908
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 50789,
+        "alive": true,
+        "damage_done": 4263
+      }
+    ]
+  },
+  {
+    "round": 50,
+    "boss_hp": 100000,
+    "events": [
+      {
+        "actor": "Roshcard",
+        "target": "Clan Boss (UNM)",
+        "dmg": 977,
+        "ability": "A1"
+      },
+      {
+        "actor": "Seeker",
+        "target": "Clan Boss (UNM)",
+        "dmg": 2187,
+        "ability": "A1"
+      },
+      {
+        "actor": "Maneater1",
+        "target": "Clan Boss (UNM)",
+        "dmg": 1249,
+        "ability": "A1"
+      },
+      {
+        "actor": "Ninja",
+        "target": "Clan Boss (UNM)",
+        "dmg": 4263,
+        "ability": "A1"
+      },
+      {
+        "actor": "Clan Boss (UNM)",
+        "target": "Ninja",
+        "dmg": 1071,
+        "ability": "AOE2"
+      }
+    ],
+    "team": [
+      {
+        "name": "Maneater1",
+        "hp": 41116,
+        "alive": true,
+        "damage_done": 1249
+      },
+      {
+        "name": "Maneater2",
+        "hp": 0,
+        "alive": false,
+        "damage_done": 0
+      },
+      {
+        "name": "Roshcard",
+        "hp": 74672,
+        "alive": true,
+        "damage_done": 977
+      },
+      {
+        "name": "Seeker",
+        "hp": 37223,
+        "alive": true,
+        "damage_done": 2187
+      },
+      {
+        "name": "Ninja",
+        "hp": 49718,
+        "alive": true,
+        "damage_done": 4263
       }
     ]
   }

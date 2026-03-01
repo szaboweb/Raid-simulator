@@ -14,16 +14,73 @@ def _build_event_rows(log: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         boss_hp = r.get("boss_hp")
         events = r.get("events", [])
         if events:
-            for ev in events:
+            for i, ev in enumerate(events, start=1):
                 rows.append({
                     "round": rd,
+                    "order_in_round": i,
                     "boss_hp": boss_hp,
                     "actor": ev.get("actor"),
                     "target": ev.get("target"),
                     "damage": ev.get("dmg"),
+                    "ability": ev.get("ability", "A1"),
                 })
         else:
-            rows.append({"round": rd, "boss_hp": boss_hp, "actor": None, "target": None, "damage": None})
+            rows.append(
+                {
+                    "round": rd,
+                    "order_in_round": None,
+                    "boss_hp": boss_hp,
+                    "actor": None,
+                    "target": None,
+                    "damage": None,
+                    "ability": None,
+                }
+            )
+    return rows
+
+
+def _build_timeline_rows(log: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    rows = []
+    global_turn = 0
+    for round_index, r in enumerate(log):
+        rd = r.get("round")
+        boss_hp = r.get("boss_hp")
+        events = r.get("events", [])
+        if not events:
+            rows.append(
+                {
+                    "field": f"R{round_index}-T0",
+                    "round": rd,
+                    "round_index_0": round_index,
+                    "turn": 0,
+                    "turn_index_0": 0,
+                    "global_turn_0": global_turn,
+                    "actor": None,
+                    "target": None,
+                    "ability": None,
+                    "damage": None,
+                    "boss_hp_after_round": boss_hp,
+                }
+            )
+            continue
+
+        for i, ev in enumerate(events):
+            rows.append(
+                {
+                    "field": f"R{round_index}-T{i}",
+                    "round": rd,
+                    "round_index_0": round_index,
+                    "turn": i + 1,
+                    "turn_index_0": i,
+                    "global_turn_0": global_turn,
+                    "actor": ev.get("actor"),
+                    "target": ev.get("target"),
+                    "ability": ev.get("ability", "A1"),
+                    "damage": ev.get("dmg"),
+                    "boss_hp_after_round": boss_hp,
+                }
+            )
+            global_turn += 1
     return rows
 
 
@@ -43,8 +100,9 @@ def _build_team_rows(log: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 
 def export_log_to_excel(log_or_path: Union[str, List[Dict[str, Any]]], out_path: str):
-    """Export a battle log (list or file path) into an Excel workbook with two sheets: Events and Team.
+    """Export a battle log (list or file path) into an Excel workbook.
 
+    Sheets: Events, Timeline, Team
     The sheets will have bold headers and an autofilter enabled.
     """
     if isinstance(log_or_path, str):
@@ -53,18 +111,22 @@ def export_log_to_excel(log_or_path: Union[str, List[Dict[str, Any]]], out_path:
         log = log_or_path
 
     events = _build_event_rows(log)
+    timeline = _build_timeline_rows(log)
     team = _build_team_rows(log)
 
     df_events = pd.DataFrame(events)
+    df_timeline = pd.DataFrame(timeline)
     df_team = pd.DataFrame(team)
 
     with pd.ExcelWriter(out_path, engine="openpyxl") as writer:
         df_events.to_excel(writer, sheet_name="Events", index=False)
+        df_timeline.to_excel(writer, sheet_name="Timeline", index=False)
         df_team.to_excel(writer, sheet_name="Team", index=False)
 
         # Access workbook and worksheets to set header formatting and filters
         wb = writer.book
         ws_events = writer.sheets["Events"]
+        ws_timeline = writer.sheets["Timeline"]
         ws_team = writer.sheets["Team"]
 
         # set autofilter range (uses openpyxl indexing)
@@ -73,6 +135,10 @@ def export_log_to_excel(log_or_path: Union[str, List[Dict[str, Any]]], out_path:
             max_col = df_events.shape[1]
             ws_events.auto_filter.ref = ws_events.dimensions
             ws_events.freeze_panes = "A2"
+
+        if not df_timeline.empty:
+            ws_timeline.auto_filter.ref = ws_timeline.dimensions
+            ws_timeline.freeze_panes = "A2"
 
         if not df_team.empty:
             ws_team.auto_filter.ref = ws_team.dimensions
@@ -86,6 +152,8 @@ def export_log_to_excel(log_or_path: Union[str, List[Dict[str, Any]]], out_path:
 
         if Font is not None:
             for cell in next(ws_events.iter_rows(min_row=1, max_row=1)):
+                cell.font = Font(bold=True)
+            for cell in next(ws_timeline.iter_rows(min_row=1, max_row=1)):
                 cell.font = Font(bold=True)
             for cell in next(ws_team.iter_rows(min_row=1, max_row=1)):
                 cell.font = Font(bold=True)

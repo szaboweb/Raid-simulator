@@ -28,6 +28,32 @@ Quickstart
 	python -m src.simulator --boss examples/boss.yaml --team examples/team.yaml --abilities boss_abilities.yaml --out battle_log.json --rounds 50
 	```
 
+Webes szerkesztő (hős adatok + csapat kijelölés)
+- Indítás:
+	```bash
+	python -m src.webapp --heroes examples/team.yaml --boss examples/boss.yaml --abilities boss_abilities.yaml --team-out examples/team_selected.yaml --out battle_log.json --excel-out battle_log.xlsx --port 8000
+	```
+- Nyisd meg böngészőben: `http://localhost:8000`
+- A felületen:
+	- szerkeszthetők a hős statok (pl. `skill_multiplier`),
+	- a stat sorrend egyszerű: `HP, ATK, Defense, Speed, Crit rate, Crit damage, RES, ACC`,
+	- a képesség oszlopok egyszerűsítve: csak `A1, A2, A3, A4`,
+	- checkbox-szal kijelölhetők a csapattagok,
+	- menthető a teljes hőslista és külön a kijelölt csapat,
+	- futtatható a szimuláció közvetlenül a kijelölt csapatból,
+	- a „Körönkénti sorrend” táblában a boss akció (`AOE1/AOE2/STUN`) is látható,
+	- automatikusan készül Excel (`Events`, `Timeline`, `Team` sheet), ahol a `Timeline` mutatja a körön belüli sorrendet (`R1-T1`, `R1-T2`...), a sebzést és a képesség oszlopot (`A1/A2/A3`).
+
+Megjegyzés a boss profilhoz
+- Az `examples/boss.yaml` fájlban `infinite_hp: true` van beállítva, ezért benchmark módon a boss nem hal meg, és a cél a minél nagyobb összsebzés elérése a körlimit alatt.
+
+Beágyazott Excel nézet (opcionális, OneDrive)
+- Ha OneDrive linkből iframe-ben szeretnéd látni az Excelt, indítsd így:
+	```bash
+	python -m src.webapp --heroes examples/team.yaml --boss examples/boss.yaml --abilities boss_abilities.yaml --team-out examples/team_selected.yaml --out battle_log.json --excel-out battle_log.xlsx --onedrive-client-id <CLIENT_ID> --onedrive-tenant <TENANT_ID> --onedrive-remote Raid/battle_log.xlsx --port 8000
+	```
+- Szimuláció futtatás után a weboldal megpróbálja feltölteni az Excel fájlt OneDrive-ra, majd beágyazott nézetben megjeleníteni.
+
 OneDrive / Excel
 Use `src.onedrive` to upload generated Excel files to OneDrive (the README_SIMULATOR.md contains detailed steps for registering an Azure AD app and running the uploader).
 

@@ -13,6 +13,8 @@ class Character:
     crit_rate: float = 0.0
     crit_damage: float = 1.5
     skill_multiplier: float = 1.0
+    accuracy: int = 0
+    resistance: int = 0
     alive: bool = True
     extra: Dict[str, Any] = field(default_factory=dict)
 
@@ -29,4 +31,4 @@ class Boss(Character):
 
 @dataclass
 class TeamMember(Character):
-    pass
+    abilities: Dict[str, Any] = field(default_factory=dict)

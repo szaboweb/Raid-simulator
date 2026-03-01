@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raid hős szerkesztő</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    h1, h2 { margin: 0 0 12px; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+    .msg { padding: 10px; background: #f2f8ff; border: 1px solid #c9dfff; border-radius: 6px; margin-bottom: 12px; }
+    .error { padding: 10px; background: #fff3f3; border: 1px solid #ffcfcf; border-radius: 6px; margin-bottom: 12px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    input[type='number'], input[type='text'] { width: 100%; box-sizing: border-box; }
+    .row { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; }
+    .row > div { min-width: 140px; }
+    button { padding: 8px 12px; cursor: pointer; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #fafafa; border: 1px solid #eee; border-radius: 6px; padding: 12px; max-height: 420px; overflow: auto; }
+    iframe { width: 100%; min-height: 560px; border: 1px solid #ddd; border-radius: 6px; }
+    .scroll-x { overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <h1>Raid hős szerkesztő</h1>
+
+  {% if message %}
+    <div class="msg">{{ message }}</div>
+  {% endif %}
+
+  <div class="card">
+    <h2>Adatfájlok</h2>
+    <p><strong>Hősök:</strong> {{ heroes_path }}</p>
+    <p><strong>Boss:</strong> {{ boss_path }}</p>
+    <p><strong>Képességek:</strong> {{ abilities_path if abilities_path else 'nincs megadva' }}</p>
+    <p><strong>Kijelölt csapat mentése ide:</strong> {{ team_output_path }}</p>
+    <p><strong>Battle log:</strong> {{ out_path }}</p>
+    <p><strong>Excel:</strong> {{ excel_out_path }}</p>
+  </div>
+
+  <form method="post" action="{{ url_for('save') }}">
+    <input type="hidden" name="hero_count" value="{{ heroes|length }}">
+
+    <div class="card">
+      <h2>Hősök (statisztika + csapat kijelölés)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Csapatban</th>
+            <th>Név</th>
+            <th>HP</th>
+            <th>ATK</th>
+            <th>Defense</th>
+            <th>Speed</th>
+            <th>Crit rate</th>
+            <th>Crit damage</th>
+            <th>RES</th>
+            <th>ACC</th>
+            <th>A1 Prio</th>
+            <th>A1 CD</th>
+            <th>A2 Prio</th>
+            <th>A2 CD</th>
+            <th>A3 Prio</th>
+            <th>A3 CD</th>
+            <th>A4 Prio</th>
+            <th>A4 CD</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for hero in heroes %}
+            <tr>
+              <td><input type="checkbox" name="hero_{{ loop.index0 }}_selected" {% if hero.selected %}checked{% endif %}></td>
+              <td><input type="text" name="hero_{{ loop.index0 }}_name" value="{{ hero.name }}"></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_hp" value="{{ hero.hp }}" min="1" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_atk" value="{{ hero.atk }}" min="1" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_defense" value="{{ hero.defense }}" min="0" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_speed" value="{{ hero.speed }}" min="1" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_crit_rate" value="{{ hero.crit_rate }}" min="0" step="0.01" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_crit_damage" value="{{ hero.crit_damage }}" min="1" step="0.01" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_resistance" value="{{ hero.resistance }}" min="0" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_accuracy" value="{{ hero.accuracy }}" min="0" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a1_priority" value="{{ hero.a1_priority }}" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a1_cooldown" value="{{ hero.a1_cooldown }}" min="0" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a2_priority" value="{{ hero.a2_priority }}" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a2_cooldown" value="{{ hero.a2_cooldown }}" min="0" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a3_priority" value="{{ hero.a3_priority }}" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a3_cooldown" value="{{ hero.a3_cooldown }}" min="0" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a4_priority" value="{{ hero.a4_priority }}" step="1" required></td>
+              <td><input type="number" name="hero_{{ loop.index0 }}_a4_cooldown" value="{{ hero.a4_cooldown }}" min="0" step="1" required></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Mentés</h2>
+      <button type="submit">Hős adatok + kijelölt csapat mentése</button>
+    </div>
+  </form>
+
+  <form method="post" action="{{ url_for('simulate') }}">
+    <div class="card">
+      <h2>Szimuláció indítás (kijelölt csapatból)</h2>
+      <div class="row">
+        <div>
+          <label for="rounds">Körök száma</label>
+          <input id="rounds" name="rounds" type="number" min="1" step="1" value="{{ rounds_default }}">
+        </div>
+        <div>
+          <button type="submit">Szimuláció futtatása</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div class="card">
+    <h2>Szimuláció eredmény (előnézet)</h2>
+    {% if simulation_error %}
+      <div class="error">{{ simulation_error }}</div>
+    {% else %}
+      <pre>{{ simulation_preview }}</pre>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>Körönkénti sorrend</h2>
+    {% if turn_order_error %}
+      <div class="error">{{ turn_order_error }}</div>
+    {% elif turn_order_rows %}
+      <div class="scroll-x">
+        <table>
+          <thead>
+            <tr>
+              <th>Global turn</th>
+              <th>Round</th>
+              <th>Turn in round</th>
+              <th>Actor</th>
+              <th>Ability</th>
+              <th>Target</th>
+              <th>Damage</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in turn_order_rows %}
+              <tr>
+                <td>{{ row.global_turn }}</td>
+                <td>{{ row.round }}</td>
+                <td>{{ row.turn_in_round }}</td>
+                <td>{{ row.actor }}</td>
+                <td>{{ row.ability }}</td>
+                <td>{{ row.target }}</td>
+                <td>{{ row.damage }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="msg">Még nincs körönkénti sorrend. Futtasd a szimulációt.</div>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>Excel (sorrend + sebzés + képesség)</h2>
+    <p>
+      <a href="{{ url_for('download_excel') }}">Excel letöltése</a>
+    </p>
+    {% if excel_embed_url %}
+      <p>Beágyazott Excel nézet (OneDrive): {{ excel_web_url }}</p>
+      <iframe src="{{ excel_embed_url }}"></iframe>
+    {% else %}
+      <p>A beágyazott nézethez add meg indításkor a <strong>--onedrive-client-id</strong> opciót, majd futtasd a szimulációt.</p>
+    {% endif %}
+  </div>
+</body>
+</html>

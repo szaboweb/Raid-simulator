@@ -6,7 +6,6 @@
   crit_rate: 105.0
   crit_damage: 105.0
   skill_multiplier: 1.0
-  selected: true
 - name: Maneater2
   hp: 4900
   atk: 2800
@@ -15,7 +14,6 @@
   crit_rate: 75.0
   crit_damage: 120.0
   skill_multiplier: 1.0
-  selected: true
 - name: Roshcard
   hp: 83000
   atk: 2300
@@ -24,7 +22,6 @@
   crit_rate: 66.0
   crit_damage: 93.0
   skill_multiplier: 1.0
-  selected: true
 - name: Seeker
   hp: 42000
   atk: 3600
@@ -33,7 +30,6 @@
   crit_rate: 85.0
   crit_damage: 143.0
   skill_multiplier: 1.0
-  selected: true
 - name: Ninja
   hp: 59000
   atk: 5700
@@ -42,4 +38,3 @@
   crit_rate: 105.0
   crit_damage: 176.0
   skill_multiplier: 1.0
-  selected: true
